@@ -1,0 +1,34 @@
+div {
+  text-align: center;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+body {
+  margin: 0;
+  position: relative; 
+}
+body::-webkit-scrollbar {
+  width: 9px;
+  background-color: rgb(89, 82, 95);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #fc00fc; /* Cor do polegar */
+  border-radius: 10px; /* Borda arredondada do polegar */
+}
+body::-webkit-scrollbar-button {
+  display: none; 
+}
+h1 {
+  position: absolute; 
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  z-index: 1; 
+  color: white; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
